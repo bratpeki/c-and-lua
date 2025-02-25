@@ -41,7 +41,7 @@ int main() {
 			lua_tostring(L, -1) /* The error message is at the top of the stack */
 		);
 		lua_close(L);
-		return 1;
+		return EXIT_FAILURE;
 	}
 
 	/* add(5, 7) */
@@ -57,7 +57,7 @@ int main() {
 			lua_tostring(L, -1) /* The error message is at the top of the stack */
 		);
 		lua_close(L);
-		return 1;
+		return EXIT_FAILURE;
 	}
 
 	/*
