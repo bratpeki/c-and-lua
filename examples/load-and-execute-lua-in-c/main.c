@@ -1,10 +1,10 @@
 #include <stdio.h> /* Printing */
 #include <stdlib.h> /* Exit codes */
 
-#include <lua.h> /* The Lua core */
-#include <lualib.h> /* The standard Lua library */
-#include <lauxlib.h> /* Practically, the C API */
-#include <luaconf.h> /* Contains Lua datatypes */
+#include "../../lua-5_4_7/src/lua.h" /* The Lua core */
+#include "../../lua-5_4_7/src/lualib.h" /* The standard Lua library */
+#include "../../lua-5_4_7/src/lauxlib.h" /* Practically, the C API */
+#include "../../lua-5_4_7/src/luaconf.h" /* Contains Lua datatypes */
 
 int main() {
 
